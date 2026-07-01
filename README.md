@@ -82,8 +82,43 @@ Client → Controller → Service → Repository → Database
 - Built system to handle concurrent users efficiently
 - Applied real-world backend engineering practices
 
-- ##  API Demo
-  [API Demo](screenshots/api-demo.png)
+- ## API Demo
+
+## API Testing
+
+Sample API requests tested using Postman.
+
+### Create Employee
+**Endpoint**
+```http
+POST /api/v1/employee/add
+```
+
+**Request Body**
+```json
+{
+  "name": "xxx",
+  "salary": 70000,
+  "department": "IT",
+  "emailId": "xxxx.com",
+  "mobileNo": "9032710201"
+}
+```
+
+**Response**
+```json
+{
+  "data": {
+    "name": "xxx",
+    "salary": 70000,
+    "department": "IT",
+    "emailId": "xxxx.com",
+    "mobileNo": "9032710201"
+  },
+  "message": "Created",
+  "status": 201
+}
+
 
 
 
