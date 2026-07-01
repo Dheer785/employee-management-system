@@ -87,7 +87,7 @@ Client → Controller → Service → Repository → Database
 - Sample API requests tested using Postman
 - Demonstrates authentication, CRUD operations, and validation
 - Sample API requests tested using Postman.
-- testapi.png
+  ![Postman API Screenshot](screenshots/testapi.png)
 
 ## Rate Limiting
 
